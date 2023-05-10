@@ -1,0 +1,582 @@
+/* -------USED FONT FAMILIES------- */
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* -------USED FONT FAMILIES------- */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./Images/body_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --------NAVIGATION BAR---------- */
+
+.nav-wrapper {
+  padding: 0;
+  width: 100%;
+  background-color: #0c1558;
+  /* height: 15vh; */
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container a {
+  color: #f3f3f3;
+  font-size: 25px;
+}
+
+.bit-logo {
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.bit-logo a {
+  text-decoration: none;
+  font-weight: 1000;
+}
+
+.soc-media {
+  margin-top: 20px;
+}
+
+.soc-media ul li {
+  list-style-type: none;
+  padding: 10px;
+  float: left;
+}
+
+/* --TRANSITIONS-- */
+
+.bit-logo a:hover {
+  color: gold;
+  transition: 0.3s;
+}
+
+#fb:hover {
+  color: rgb(63, 42, 248);
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+#tw:hover {
+  color: rgb(0, 119, 255);
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+#ln:hover {
+  color: rgb(0, 50, 214);
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+#in:hover {
+  color: rgb(195, 0, 255);
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+#yt:hover {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+.nav-tools ul li a:hover {
+  color: gold;
+  transition: 0.3s;
+}
+
+/* --TRANSITIONS END-- */
+
+.nav-tools {
+  margin-top: 15px;
+}
+
+.nav-tools ul li {
+  list-style-type: none;
+  padding: 15px;
+  float: left;
+}
+.mad {
+  font-size: larger;
+}
+.flex {
+  display: flex;
+}
+
+/* ------NAVIGATION BAR ENDS------- */
+
+/* ----------HOME SECTION-----------*/
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.home {
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+.bit-image-top img {
+  width: 550px;
+}
+
+.head-content {
+  margin-left: 100px;
+  margin-top: -40px;
+}
+.head-main-text {
+  margin-top: 80px;
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.head-sub-text {
+  width: max-content;
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.head-buttons {
+  display: flex;
+  margin-left: 650px;
+  margin-top: -120px;
+}
+
+.head-buttons a {
+  padding: 20px;
+  margin: 10px;
+  width: 240px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  border: 2px solid white;
+}
+
+.head-buttons a:hover {
+  background-color: rgb(231, 198, 7);
+  color: rgb(17, 0, 255);
+  border: 2px solid rgb(0, 110, 255);
+  transition: .7s;
+  font-weight: bolder;
+}
+
+.acc-buttons {
+  margin: 40px 0 0 45%;
+}
+
+.acc-buttons ul {
+  display: flex;
+}
+
+.acc-buttons ul li {
+  list-style-type: none;
+  padding: 3px;
+  font-size: 50px;
+}
+
+.acc-buttons ul a {
+  color: white;
+}
+/* --------HOME SECTION ENDS--------*/
+
+/* -----------OUR SERVICES-----------*/
+
+.our-services-flex {
+  display: flex;
+  margin-top: 50px;
+}
+
+.our-services-flex div {
+  background-color: white;
+  border: 5px solid rgb(25, 34, 155);
+  margin: 15px;
+  height: 250px;
+  text-align: center;
+}
+
+.our-services-flex div {
+  padding: 80px 20px;
+}
+
+.our-services-flex h2 {
+  font-size: larger;
+  font-weight: 800;
+}
+
+.our-services-flex p{
+  margin-top: 20px;
+}
+
+.our-services-flex div:hover{
+  background-color: #0c1558;
+  color: gold;
+  transition: .5s;
+}
+
+/* ---------OUR SERVICES ENDS--------*/
+
+/* --------------ABOUT US-------------*/
+
+.about-us-container {
+  width: 1200px;
+  margin: auto;
+  border: 1px dashed white;
+  margin-top: 50px;
+}
+
+.about-us-content {
+  display: flex;
+}
+
+.abtus-txt {
+  padding: 50px;
+  color: white;
+  margin: 40px;
+}
+
+.abtus-txt h1 {
+  font-size: 40px;
+  font-weight:600;
+}
+
+.abtus-txt p {
+  margin-top: 30px;
+  line-height: 2rem;
+  font-size: 17px;
+}
+
+.abtus-img {
+  margin: 80px ;
+  margin-bottom: 140px;
+}
+
+.abtus-txt a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  /* position: absolute; */
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  padding: 15px 45px;
+}
+
+.abtus-txt a:hover {
+  background-color: rgb(231, 198, 7);
+  color: rgb(17, 0, 255);
+  border: 2px solid rgb(0, 110, 255);
+  transition: .7s;
+  font-weight: bold;
+}
+
+/* -----------ABOUT US ENDS----------*/
+
+/* -----------BITCOIN INFO-----------*/
+
+.border-container {
+  width: 1200px;
+  margin: auto;
+  border: 1px solid silver;
+  margin-top: 30px;
+}
+
+.info-1 ul {
+  display: flex;
+}
+
+.info-1 ul li {
+  list-style-type: none;
+  padding: 28px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.info-1 ul a{
+  color: white;
+  text-decoration: none;
+}
+
+.info-1 ul a:hover {
+  color: gold;
+  transition: .5s;
+}
+
+/* .info-1 ul a:active {
+  color: gold;
+} */
+
+.info-head {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
+
+#hr {
+  width: 1100px;
+  margin: auto;
+}
+
+.info-graph {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  /* margin-top: 20px; */
+}
+
+.graph-1 img {
+  padding-top: 30px;
+}
+
+#ii {
+  padding-left: 195px;
+  color: gold;
+}
+/* ---------BITCOIN INFO ENDS--------*/
+
+/* ---------------TESTIMONIAL--------------*/
+
+.testimonial h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.tes-content {
+  display: flex;
+  margin-top: 50px;
+}
+
+.tes-image {
+  margin-left: 120px;
+}
+
+.tes-image p {
+  color: white;
+  font-weight: 600;
+  margin: 20px 0 0 55px;
+  justify-content: center;
+}
+
+#bb {
+  font-weight: 100;
+  color: gold;
+  margin: 3px 0 150px 75px;
+}
+
+.tes-text {
+  color: white;
+  width: 700px;
+  font-size: 18px;
+  margin: 25px 0 0 50px;
+}
+
+
+
+/* -------------TESTIMNIAL ENDS------------*/
+
+/* ---------------HOW IT WORKS--------------*/
+
+.how-it-works h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 80px 0 80px 0;
+}
+
+.how-it-works img {
+  margin: auto;
+}
+
+/* -------------HOW IT WORKS ENDS-----------*/
+
+/* -------------REQUEST A CALL BACK-----------*/
+
+.form h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 80px 0 20px 0;
+}
+
+.flex-wrap input{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-1r {
+  display: flex;
+}
+
+.form-2r {
+  display: flex;
+}
+
+.flex-wrap{
+margin-left: 16.5%;
+padding: 30px;
+}
+
+.flex-wrap input {
+  font-size: 15px;
+  background: transparent;
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 25px 90px;
+  outline: none;
+  color: white;
+}
+
+#send-button {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+#send-button:hover {
+  background-color: rgb(231, 198, 7);
+  color: rgb(17, 0, 255);
+  border: 2px solid rgb(0, 110, 255);
+  transition: .7s;
+  font-weight: bold;
+}
+
+.form hr {
+  width: 90%;
+  margin: auto;
+}
+
+/* -----------REQUEST A CALL BACK ENDS--------*/
+
+/* --------------------FOOTER-----------------*/
+
+.footer {
+  color: white;
+  margin-top: 50px;
+}
+
+.footer h1{
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot p {
+  color: rgb(150, 147, 147);
+  margin-top: 10px;
+}
+
+.foot a {
+  color: rgba(255, 217, 0, 0.87);
+  text-decoration: none;
+}
+
+.foot a:hover {
+  color: rgb(0, 204, 255);
+}
+
+
+.foot div{
+  margin: 40px;
+}
+
+#nl {
+  margin-left: 30px;
+}
+
+#newsletter {
+  font-size: 15px;
+  background: transparent;
+  border: 1px solid gray;
+  margin-top: 20px;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+  text-align: center;
+}
+
+#subs {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 70px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+#subs:hover {
+  background-color: rgb(231, 7, 7);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  transition: .5s;
+  font-weight: bold;
+}
+
+.copy {
+  margin: 20px;
+  text-align: center;
+}
+
+.copy a {
+  text-decoration: none;
+  color: gold;
+}
+
+.copy a:hover {
+  color: rgb(255, 0, 0);
+}
+
+/* -----------------FOOTER ENDS---------------*/
